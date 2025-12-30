@@ -26,6 +26,7 @@ while true; do
     SELECTED=$(yad --list \
         --title="USB Mount Manager" \
         --width=500 \
+        --height=200 \
         --column="Device" \
         --column="Label" \
         --column="Size" \
